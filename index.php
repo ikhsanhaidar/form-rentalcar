@@ -67,7 +67,7 @@
         } elseif ($pilihanMobil == 'Agya') {
             $tarifPerHari = 300000; 
         }
-        // Gunakan switch case untuk pilihan jenis kelamin (tidak ada logika tambahan di sini, hanya menampilkan pilihan)
+       
         switch ($jenisKelamin) {
         case 'Pria':
             $jenisKelamin = "Pria";
@@ -76,7 +76,7 @@
             $jenisKelamin = "Wanita";
             break;
         default:
-            $jenisKelamin = "Tidak diketahui"; // Sebagai fallback jika tidak ada pilihan
+            $jenisKelamin = "Tidak diketahui"; 
     }
 
         $biayaSewa = $lamaSewa * $tarifPerHari;
