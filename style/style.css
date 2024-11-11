@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.form-container, .output-container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+
+.form-container h2, .output-container h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+
+.grup-form {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.grup-form label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.grup-form input[type="text"],
+.grup-form input[type="date"],
+.grup-form input[type="number"],
+.grup-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.grup-form input[type="text"]:focus,
+.grup-form input[type="date"]:focus,
+.grup-form input[type="number"]:focus,
+.grup-form select:focus {
+    border-color: #3a8df5;
+    outline: none;
+}
+
+
+.grup-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.grup-form label[for="pria"],
+.grup-form label[for="wanita"] {
+    margin-right: 15px;
+}
+
+
+.aksi-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.aksi-form button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #3a8df5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.aksi-form button[type="reset"] {
+    background-color: #e57373;
+}
+
+.aksi-form button:hover {
+    background-color: #2e73d6;
+}
+
+.aksi-form button[type="reset"]:hover {
+    background-color: #d9534f;
+}
+
+/* Output styling */
+.output-container h3 {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+}
+
+.output-container div {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #555;
+}
+
+.output-container div span.highlight {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.highlight {
+    font-weight: bold;
+    color: #3a8df5;
+}
+
+.output-container hr {
+    margin: 15px 0;
+    border: 0;      
+    border-top: 1px dashed #ddd;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.back-link a {
+    color: #3a8df5;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+    color: #2e73d6;
+}
+
